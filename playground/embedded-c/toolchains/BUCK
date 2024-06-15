@@ -1,0 +1,7 @@
+load("@toolchains//c_toolchain.bzl", "c_toolchain")
+
+c_toolchain(
+    name = "c",
+    command = "clang",
+    visibility = ["PUBLIC"],
+)

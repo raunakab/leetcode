@@ -1,2 +1,5 @@
 # cargo
 target
+
+# buck2
+buck-out

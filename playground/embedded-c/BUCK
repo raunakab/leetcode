@@ -1,0 +1,7 @@
+load("@root//build.bzl", "c_binary")
+
+c_binary(
+    name = "main",
+    file = "src/main.c",
+    toolchain = "@toolchains//:c",
+)
